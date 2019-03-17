@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+<head>
+	<title>Log In</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="styles/LogIn.css" type="text/css">
+        <link rel="stylesheet" href="Resources/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+        <div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="Resources/login2.jpg" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" method="post" action="LoginServlet">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <input type="submit" class="btn btn-lg btn-primary btn-block btn-signin" value="Sign in">
+            </form>
+            <a href="#" class="forgot-password">
+                Forgot the password?
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Feb, 2019, 7:29:50 PM
+    Author     : hp
+*/
+.sty
+{
+    font-size:48px;
+    padding-top:230px;
+    padding-left:400px;
+    color:white;
+}
+.resty
+{
+    font-size:28px;
+    padding-left:510px;
+    color:white;
+}
+.resty1
+{
+    color:white;
+}
+.btn
+{
+    padding-right:40px;
+    padding-left:40px;
+    background-color:#737373;
+    border-color:white;
+}
+.btntag
+{
+    padding-left:630px
+}
